@@ -2,7 +2,7 @@
 
 > [Utilidad](main.py) que encapsula la creación y gestión de una lista de objetos de tipo Producto.  
 
-Ejercicio personal que trata de poner en practica las nociones de POO impartidas en [hack4u.io](https://hack4u.io/cursos/python-ofensivo){:target="_blank" rel="noopener"}
+Ejercicio personal que trata de poner en practica las nociones de POO impartidas en [hack4u.io](https://hack4u.io/cursos/python-ofensivo)
 
 Podemos apreciar que no se trata de un "modulo de biblioteca" con el ```if __name__ == '__main__':``` en la linea [55](https://github.com/rnek0/pypapeando/blob/6e047405f940653ad7dc8149f33a9a35f907c170/main.py#L55)  
 Un **modulo de biblioteca** es un fichero *.py exterior al fichero main.py (en este caso) que es el punto inicial del programa y situado en el mismo directorio. El modulo de biblioteca puede ser importado para aportar funcionalidad extra pero no sera el punto de partida de la aplicación.  
