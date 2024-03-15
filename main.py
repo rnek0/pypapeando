@@ -38,7 +38,7 @@ class Producto:
 
     def __str__(self):
         sep = (Producto.max_string_lenght - len(self.nombre))*' '
-        return f"[P] {self.nombre} {sep} Precio : {self.precio:.2f} €"
+        return f"[P] {self.nombre} {sep} Precio : {self.precio:>5.2f} €"
 
 class Banner:
     """Display banner app"""
